@@ -113,13 +113,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'ROMEO' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'ROMEO') {
+        if (config.AFPLK == 'Romeo' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'Romeo') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'ROMEO' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'ROMEO') {
+         else if (config.AFPLK !== 'Romeo' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'Romeo') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
